@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Appliction</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <style type="text/css">
+      /*
+      These are the default styles. No need to change these.
+      */
+      @import url(https://fonts.googleapis.com/css?family=Roboto);
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .title {
+        font-size: 2.5em;
+        text-align: center;
+      }
+
+      .box {
+        min-height: 150px;
+      }
+
+      .dark_blue {
+        background-color: #2A457A;
+        color: #efefef;
+      }
+
+      .light_blue {
+        background-color: #099DD9;
+      }
+
+      .green {
+        background-color: #0C8542;
+      }
+
+      .lime {
+        background-color: rgb(179, 210, 52);
+      }
+
+      .seafoam {
+        background-color: rgb(77, 190, 161);
+      }
+
+      .red {
+        background-color: #EC1D3B;
+      }
+
+      .orange {
+        background-color: #F79420;
+      }
+      /*
+      ==================================
+      Hamburger menu with event listener
+      ==================================
+      nav {
+          width: 300px;
+          height: 100%;
+          background-color: black;
+          position: absolute;
+          -webkit-transform: translate(-300px,0);
+          transform: translate(-300px,0);
+          transition: 0.3s, ease;
+          
+      } */
+    </style>
+    <style type="text/css">
+      /*
+      These are the responsive styles. Throw some breakpoints in here!
+      */
+      h1 {
+        color: white;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+      }
+      p {
+        color: white;
+        padding: 10px;
+        line-height: 1.6em;
+        background: rgba(0, 0, 0, 0.5);
+        margin: 5px;
+        border-radius: 5px;
+      }
+      a {
+        color: white;
+      }
+    a:hover{
+      color: gray;
+    }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .box {
+        width: 100%;
+      }
+      .fas {
+          color:white;
+          margin-left: 20px;
+          margin-top: 10px;
+      }
+      .light_blue1 {
+        width: 100%;
+        background-color: #099DD9;
+      }
+
+      @media screen and (min-width: 450px) {
+        .dark_blue {
+          color: blue;
+        }
+        .light_blue{
+          width: 50%;
+        }
+        .green {
+          width: 50%;
+        }
+      }
+      @media screen and (min-width: 550px) {
+        .dark_blue {
+          color: blue;
+        }
+        .light_blue{
+          width: 50%;
+        }
+        .green {
+          width: 50%;
+        }
+        .red {
+          width: 50%;
+        }
+        .orange {
+          width: 50%;
+        }
+      }
+      @media screen and (min-width: 800px) {
+        .container {
+            width: 800px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .dark_blue {
+          color: blue;
+        }
+        .light_blue {
+          width: 50%;
+        }
+        .green {
+          width: 50%;
+        }
+        .red {
+          width: 50%;
+        }
+        .orange {
+          width: 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <nav>
+
+        </nav>
+      <div class="box dark_blue">
+            <!--<i class="fas fa-bars"></i> Hamburger Menu -->
+            <h1> Welcome to my Application</h1>
+      </div>
+      <div class="box light_blue">
+        <h1>About me</h1>
+        <p> Hi there,
+ 
+          I hope this finds you well. I am Labi Francis Onuformi, a 
+          Nigerian who lives in Abuja, Nigeria. On the 26th of April,2018, 
+          I completed my unsuccessful trial with Automattic. My buddy, Guarav Meshram, 
+          encouraged me to apply again after six (6) months. I’m applying again because I 
+          enjoyed helping WordPress.com users and I love the job. I first heard of this job 
+          having met Marjorie R. Asturias (Happiness Engineer) and Job Thomas at the CMS Summit 
+          held in Abuja, Nigeria in 2017. They encouraged participants to apply</p>
+
+          <p>
+              I volunteer on WordPresss.com support forum which has taught me a lot about WordPress and how Happiness 
+              Engineers respond to forum questions. Here is the link to my profile: <a href="https://en.forums.wordpress.com/profile/labifrancis">labifrancis</a>
+
+          </p>
+          <p>
+              During my internship with the Commonwealth Games Federation(CGF), I was a delegate support for fourteen (14) delegates coming to Nigeria. 
+              I helped in providing their letters to get a visa to Nigeria and also the entire logistics. What made it memorable was the prompt and detailed response 
+              they got from me whiles seeking support, and then, the email the sent to appreciate me for my prompt replies.I also I built a website for the organization, 
+              (nigeriacga.org), and managed another (nigerianoc.org). Both are on WordPress.
+
+          </p>
+      </div>
+      <div class="box green">
+        <h1> A good customer service...</h1>
+        <p>A good customer service should wow the customer and provide easy access to a 24/7 support.
+           Also, a good customer support should offer great service that will make customers spread 
+           the word about the awesomeness of the service or product. Genuine care for customer satisfaction 
+           should be a priority for customer representatives. Finally, a customer representative should be 
+           humane with a sense of humor while relating with customers and anticipate their needs and solve them. 
+           These are the new philosophies about customer service I got after reading "Delivering Happiness" by 
+           Tony Hsieh (CEO, Zappos) and "Exceptional Service, Exceptional Profit”
+        </p>
+        <p>
+            The goal is to provide 24/7 customer support, mitigate customer disloyalty and by providing effortless 
+            experience. Anticipate customer needs and meet them. A good support rep should be able to dig out problems 
+            and find solutions. Andrew’s blog post - <a href="http://andrewspittle.com/2016/06/14/support-careers/">support career</a> was an 
+            inspiration for me. It captured some of my thoughts especially the fact that support is about helping 
+            people and a life time of service. In support, you are the human connection to a company and its product. 
+            Your relationships with customers provide an opportunity to influence the company at a very foundational level. 
+            Support is about helping people by conveying technical information in a way they can relate to.
+
+        </p>
+      </div>
+      <div class="box red">
+          <h1>“I’ll never stop learning” </h1>
+          <p> “I’ll never stop learning” means I still have a lot of things to learn and I 
+            should be open to doing so. It also implies that I should be hungry for knowledge 
+            and be curious to ask questions so that I can understand others better. After my failed 
+            trial, I asked Karen Alma on Support Driven to help recommend some books on Support and 
+            she gladly did. I read “Fish”, “The Customer Rules” by Lee Cockerel and “Setting the Table” 
+            by Danny Meyer. I shared some of my thoughts on them on my blog. <a href="https://labifrancis.com/whats-your-excuse-its-your-choice/">Fish</a>  and <a href="https://labifrancis.com/be-nice/">The Customer Rules</a>  
+            </p>
+      </div>
+      <div class="box orange">
+        <h1> What has changed?</h1>
+        <p>
+            During this six-month period, I learned how to use the Command Line, Git and Github and design responsive websites. I made this responsive site 
+            using HTML and CSS, by creating a repository on Github, pushing commits from my terminal 
+            and deploying to Netlify. I have bought two books on Javascript, ‘Javascript and Jquery” by 
+            Jon Duckett and “Eloquent Javascript” by Marijn Haverbeke to improve my knowledge of the 
+            language. I designed this cover into a single page website and deployed on Netlify using the above skills.
+
+        </p>
+      </div>
+      <div class="box light_blue1">
+         <h1>More about me...</h1>
+         <p>
+            One of the achievements I am really proud in my life is starting a mentoring 
+            program where participants register and are paired with a mentor. This year, we 
+            launched a website <a href="https://www.nifescmp.org">(nifescmp.org)</a> for the program which I built with WordPress. 
+            The website also features interviews with successful professionals to inspire the 
+            younger generation and grant them the opportunity to learn from their personal stories. 
+         </p>
+         <p>Nigeria held its first ever WordCamp on the 10th of March, 2018 and I was glad to be one 
+            of the speakers. I shared my experience and the feedback I got on my blog: <a href="https://labifrancis.com/speaking-at-wordcamp-lagos-2018/">Speaking at WordCamp Lagos</a>
+          </p>
+          <p>
+              On <a href="https://www.supportdriven.com/register/">Support Driven slack community,</a> I met Andrew Spittle and also learned a lot on 
+              support from the community. Andrew advised me on the importance of writing and 
+              learning well if I’m to be a good Happiness Engineer. I read some of the books 
+              he recommended and worked with the counsel he gave me. Glad I met him because my
+               writing is better and I have a good support philosophy. He also encouraged me to 
+               apply again after not making it through the trial and I’m excited to be doing so again
+          </p>
+
+
+      </div>
+    </div>
+  </body>
+</html>
